@@ -1,0 +1,14 @@
+udemy1=[]
+udemy2=[]
+udemy3=[]
+course=int(input("enter the coure name to learn: "))
+print("1.communicstion")
+print("2.python and c skills")
+print("3.any other skills")
+if course==1:
+    udemy1.append(course)
+elif course==2:
+    udemy2.append(course)
+else:
+    udemy3.append(course)
+print("udemy courses you choosed to learn are: ",udemy1,udemy2,udemy3)
